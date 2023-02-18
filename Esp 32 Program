@@ -8,13 +8,13 @@
 #include <ArduinoJson.h>
 
 // My Network credentials
-const char* ssid = "vivo 1921";
-const char* password = "Prem singh";
+const char* ssid = "password wifi";
+const char* password = "ssid wifi";
 
 // Initialize Telegram BOT
-#define BOTtoken "5905158870:AAFWXVlkMfS4Eu_BafbLR0-h_phBVCapcCw"  // your Bot Token 
+#define BOTtoken "----------------------------------------------"  // your Bot Token 
 
-#define CHAT_ID "1882834023"  // My instagram chat ID
+#define CHAT_ID "------------"  // My instagram chat ID
 // Since telegram bots can be accessed from any mobile so i give my chat id so that the bot can be accessed only from my device.
 
 WiFiClientSecure client;
